@@ -1,0 +1,89 @@
+.container-cadastro-lugar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cadastro-lugar {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    width: 60%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.form-cadastro-lugar {
+    width: 250px;
+    font-size: larger;
+    text-align: center;
+    color: #1967d2;
+    margin: auto;
+}
+
+.input-cadastro-lugar {
+    width: 250px;
+    height: 35px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: medium;
+    border-style: none;
+    border-color: white;
+    background-color: rgba(94, 105, 121, 0.226);
+}
+
+.but-cadastro-lugar {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #1967d2;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .container-cadastro-lugar{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .div-cadastro-lugar {
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        font-size: larger;
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+    }
+    
+    .form-cadastro-lugar {
+        width: 250px;
+        font-size: larger;
+        text-align: center;
+        color: #1967d2;
+        margin: auto;
+    }
+    
+    .input-cadastro-lugar {
+        width: 250px;
+        height: 35px;
+        border-radius: 100px;
+        text-align: center;
+        font-size: medium;
+        border-style: none;
+        border-color: white;
+        background-color: rgba(94, 105, 121, 0.226);
+    }
+    
+    .but-cadastro-lugar {
+        width: 150px;
+        height: 40px;
+        color: white;
+        background-color: #1967d2;
+        border: none;
+        border-radius: 5px;
+    }
+}

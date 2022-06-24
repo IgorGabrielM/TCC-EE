@@ -1,0 +1,20 @@
+.container-fluid{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100px;
+}
+
+.div-header img {
+    position: relative;
+    padding: 0px;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+}
+.nav-link a{
+    text-decoration: none;
+}

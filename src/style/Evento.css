@@ -1,0 +1,10 @@
+.card-body {
+    display: flex;
+}
+
+.card {
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+    color: #0a2c5c;
+}

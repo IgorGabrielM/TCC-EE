@@ -1,0 +1,25 @@
+.card-button {
+    text-align: center;
+    margin: 20%;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+a {
+    color: #5297FF;
+}
+
+a :hover {
+    color: #5297FF;
+}
+
+.but-home-props a {
+    text-decoration: none;
+    color: #5297FF;
+    font-size: 50px;
+}
+
+.but-home-props a :hover {
+    color: #5297FF;
+}

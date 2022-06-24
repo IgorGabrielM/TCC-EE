@@ -1,0 +1,135 @@
+body {
+    background-image: url('imgfundo.png');
+    background-size: 1500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container-login {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-login {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 30%;
+    height: 30%;
+    font-size: x-large;
+    color: #1967d2;
+    text-align: center;
+    padding: 15px;
+}
+
+.div-login img {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    border: none;
+    width: 200px;
+    height: 200px;
+}
+
+.input-login {
+    width: 250px;
+    height: 35px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: medium;
+    margin: 5px;
+    border-style: none;
+    background-color: rgba(94, 105, 121, 0.226);
+}
+
+.form-login {
+    width: 250px;
+    margin: auto;
+}
+
+.but-login {
+    width: 150px;
+    color: white;
+    background-color: #1967d2;
+    border: none;
+    border-radius: 5px;
+}
+
+.div-but-login {
+    margin-top: 10px;
+}
+
+.but-small-login a {
+    text-decoration: none;
+    color: #1967d2;
+}
+
+.but-small-login a:hover {
+    text-decoration: none;
+    color: #1967d2;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url('imgfundo.png');
+        background-size: 1500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .container-login {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-login {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 90%;
+        height: 90%;
+        font-size: x-large;
+        color: #1967d2;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .div-login img {
+        background-color: rgb(255, 255, 255);
+        padding: 0px;
+        border: none;
+        width: 200px;
+        height: 200px;
+    }
+
+    .input-login {
+        width: 250px;
+        height: 35px;
+        border-radius: 100px;
+        text-align: center;
+        font-size: medium;
+        margin: 5px;
+        border-style: none;
+        background-color: rgba(94, 105, 121, 0.226);
+    }
+
+    .but-login {
+        width: 150px;
+        color: white;
+        background-color: #1967d2;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .but-small-login a {
+        text-decoration: none;
+        color: #1967d2;
+    }
+
+    .but-small-login a:hover {
+        text-decoration: none;
+        color: #1967d2;
+    }
+
+}

@@ -1,0 +1,110 @@
+.container-cadastro-prop {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cadastro-prop {
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form-cadastro-prop {
+    width: 250px;
+    font-size: larger;
+    margin: auto;
+    text-align: center;
+    color: #1967d2;
+}
+
+.input-cadastro-prop {
+    width: 250px;
+    height: 35px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: medium;
+    border-style: none;
+    border-color: white;
+    background-color: rgba(94, 105, 121, 0.226);
+}
+
+.div-but {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.but-cadastro {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #1967d2;
+    border: none;
+    border-radius: 5px;
+}
+
+.but-cadastro-a{
+    color: #fff;
+}
+.but-cadastro-a:hover{
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .container-cadastro-prop {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .div-cadastro-prop {
+        background-color: rgb(255, 255, 255);
+        font-size: larger;
+        width: 90%;
+        height: 50%;
+        border-radius: 10px;
+        padding: 50px;
+    }
+
+    .form-cadastro-prop {
+        width: 250px;
+        font-size: larger;
+        margin: auto;
+        text-align: center;
+        color: #1967d2;
+    }
+
+    .input-cadastro-prop {
+        width: 250px;
+        height: 30px;
+        border-radius: 100px;
+        text-align: center;
+        font-size: medium;
+        border-style: none;
+        border-color: white;
+        background-color: rgba(94, 105, 121, 0.226);
+    }
+
+    .div-but {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .but-cadastro {
+        width: 150px;
+        height: 40px;
+        color: white;
+        background-color: #1967d2;
+        border: none;
+        border-radius: 5px;
+    }
+
+}
