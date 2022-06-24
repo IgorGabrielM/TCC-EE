@@ -23,22 +23,17 @@ const App = () => {
   return (
     <>
       <header>
-        {loggedIn ?
           <Header /> : null
-        }
       </header>
       <main className='app-container'>
         <Routes>
-          {loggedIn ?
             <>
-              <Route path="/usuario" element={<Usuario />} />
               <Route path='/home' element={<Home />} />
               <Route path='/home-proprietario' element={<HomeProprietario />} />
               <Route path='/proprietario/cadastro-lugar' element={<CadastroLugar />} />
               <Route path='/cadastro-evento' element={<CadastroEvento />} />
               <Route path='/eventos' element={<Evento />} />
             </>
-            :
             <>
               <Route path='*' element={<Login />} />
               <Route path='/login-proprietario' element={<LoginProprietario />} />
@@ -47,7 +42,6 @@ const App = () => {
               <Route path="/login-proprietario/cadastro-proprietario" element={<CadastroProprietario />} />
               <Route path='/login-proprietario/cadastro-proprietario-pt2' element={< CadastroProprietarioPt2 />} />
             </>
-          }
         </Routes>
         <Outlet />
       </main>
