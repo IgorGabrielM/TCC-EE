@@ -32,10 +32,6 @@ const Header = () => {
                                 <Nav.Link href="#action2"> <Link to={"home"}><a className="nav-link" href="#">
                                     <FontAwesomeIcon icon={faHome} />
                                     Home</a></Link></Nav.Link>
-                                <Nav.Link href="#action1"> <Link to={"usuario"}><a className="nav-link active" href="#">
-                                    <FontAwesomeIcon icon={faUser} />
-                                    Meu perfil</a>
-                                </Link></Nav.Link>
                                 <Nav.Link href="#action2"><Link to={"eventos"}><a className="nav-link" href="#">
                                     <FontAwesomeIcon icon={faFutbol} />
                                     Eventos</a></Link></Nav.Link>
